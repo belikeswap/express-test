@@ -1,0 +1,11 @@
+name: Toystack
+version: 1
+env_variables:
+    PORT: 8080
+port: 8080
+scheme: https
+build-type: "on-commit"
+domain: express-test-swap.toystack.co
+entry-point: "npm install --quiet && npm run start"
+time-to-live: 360
+production: True
